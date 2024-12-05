@@ -1,10 +1,6 @@
 const path = require('path'); // Для работы с путями
 
 const config = {
-
-    // optimization: {
-    //     minimize: false,
-    //   },
     mode: 'development',
     entry: {
         index: './src/js/index.js', // Точка входа для index.js
@@ -27,7 +23,17 @@ const config = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/preset-env', '@babel/preset-react'], // Поддержка React и ES6+
+                        presets: [
+                            [
+                                '@babel/preset-env',
+                                {
+                                    targets: {
+                                        esmodules: true, // Поддержка ES модуля
+                                    },
+                                },
+                            ],
+                            '@babel/preset-react', // Поддержка React
+                        ],
                     },
                 },
             },
