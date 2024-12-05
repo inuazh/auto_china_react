@@ -2,10 +2,6 @@ import CatalogAutoApp from './CatalogAutoApp'
 CatalogAutoApp();
 
 
-// Button favorite
-import btnFav from './modules/btn-fav.js';
-btnFav();
-
 // Catalog Card List display
 import catalogCardsList from './modules/catalog-cards-list.js';
 catalogCardsList();
@@ -22,15 +18,14 @@ filterRangeSliderModifier();
 import filterHidden from './modules/filter-hidden.js';
 filterHidden();
 
-// // Мобильная навигация
-// import mobileNav2 from './modules/mobile-nav2.js';
-// mobileNav2();
+// Мобильная навигация
+import mobileNav2 from './modules/mobile-nav2.js';
+mobileNav2();
 
-// //  Каталог модальное окно фильров по нажатию на кнопку
-// import catalogFiltersModalMobile from './modules/catalog-filters-modal-mobile.js';
-// catalogFiltersModalMobile();
+//  Каталог модальное окно фильров по нажатию на кнопку
+import catalogFiltersModalMobile from './modules/catalog-filters-modal-mobile.js';
+catalogFiltersModalMobile();
 
-// //  Каталог модальное окно фильров по нажатию на кнопку
-// import catalogFiltersModalRadio from './modules/catalog-filters-modal-radio.js';
-// catalogFiltersModalRadio();
-
+//  Каталог модальное окно фильров по нажатию на кнопку
+import catalogFiltersModalRadio from './modules/catalog-filters-modal-radio.js';
+catalogFiltersModalRadio();
