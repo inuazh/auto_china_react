@@ -1,0 +1,19 @@
+.new-cars {
+    padding: 40px 0;
+
+    @include mobile {
+        padding: 20px 0;
+        background: var(--light-grey);
+    }
+}
+
+.new-cars__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;
+
+    @include mobile {
+        gap: 6px;
+    }
+}

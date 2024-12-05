@@ -1,0 +1,35 @@
+:root {
+	--container-width: 1230px;
+	--container-padding: 15px;
+	--container-paddingMobile: 10px;
+
+	// Fonts
+	--font-family: "Manrope", sans-serif;
+	--second-family: "Roboto", sans-serif;
+	--third-family: "Inter", sans-serif;
+	--font3: "Font Awesome 6 Pro", sans-serif;
+	
+
+	// Colors
+	--black: #272635;
+	--blue: #083260;
+	--light-blue: #1d85f8;
+	--grey: #888;
+	--light-grey: #f0f0f0;
+	--light-blue-2: #bfd9da;
+	--red: #fd6b3e;
+	--white: #fff;
+	--secondary-grey: #dedede;
+	
+	
+	//Color text
+	--page-bg: var(--white);
+	--text-color: var(--black);
+	--accent: var(--red);
+	--link-color: var(--light-blue);
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}

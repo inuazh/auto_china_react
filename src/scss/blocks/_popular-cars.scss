@@ -1,0 +1,26 @@
+.popular-cars {
+    padding: 40px 0;
+
+    @include mobile {
+        padding: 20px 0;
+        background: var(--light-grey);
+    }
+}
+
+
+.popular-cars__row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;
+
+    @include mobile {
+        gap: 6px;
+    }
+}
+
+.title.popular-cars__title-mobile {
+    @include mobile {
+        max-width: 170px;
+    }
+}

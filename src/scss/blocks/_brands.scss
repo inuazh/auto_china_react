@@ -1,0 +1,65 @@
+.brands {
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    @include mobile {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+.brands-cars__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.brands__link {
+    position: relative;
+
+    border: 1px solid var(--light-blue);
+    border-radius: 8px;
+    padding: 10px;
+    width: 193px;
+    height: 56px;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--light-blue);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    transition: all .2s ease-in;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &::after {
+        content: "";
+
+        width: 17px;
+        height: 16px;
+
+        background-image: url('./../../img/brands/arrow.svg');
+        background-position: center center; /* x y */
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        position: absolute;
+        right: 8px;
+        top: 8.3px;
+    }
+
+    @include mobile {
+        width: 166px;
+        font-size: 16px;
+    }
+}
+

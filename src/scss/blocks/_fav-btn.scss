@@ -1,0 +1,33 @@
+.fav-btn {
+    position: absolute; 
+    top: 18px;
+    right: 18px;
+    z-index: 10;      
+    
+    @include mobile {
+        top: 6px;
+        right: 6px;
+    }
+}
+
+.icon-favorite-btn {
+    fill:  var(--white);
+	stroke: var(--grey);
+	stroke-width: 1px;
+
+    transition: stroke .2s ease-in;
+
+    &:hover {
+        stroke:  var(--red);
+    }
+}
+
+.btn-favorite {
+    &--selected .icon-favorite-btn  {  // если есть у кнопки модификатор  &--selected то иконка выбирается 
+        stroke:  var(--white);  
+        fill: var(--red);
+    }
+}
+
+
+

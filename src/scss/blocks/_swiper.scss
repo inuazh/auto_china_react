@@ -1,0 +1,32 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 590px !important;
+    height: 280px !important;
+
+    @include mobile {
+        width: 312px !important;
+        height: 196px !important;
+    }
+}
+
+.swiper-wrapper{
+    padding-bottom: 30px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0px !important;
+}
+
+.swiper-pagination {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+  
+
+.swiper-pagination-bullet {
+    
+}

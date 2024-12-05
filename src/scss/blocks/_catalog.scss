@@ -1,0 +1,260 @@
+.catalog {
+    position: relative;
+    z-index: 10;
+    padding-top: 124px;
+    padding-bottom: 80px;
+
+    @include mobile {
+        padding-top: 74px;
+        padding-bottom: 40px; 
+    }
+}
+
+.block-title.catalog__title {
+    @include mobile {
+        margin-bottom: 16px;
+    }
+}
+
+.catalog__row {
+    display: grid;
+    // grid-template-columns: 1fr 895px;
+    grid-template-columns: 0.318fr 1fr;
+    gap: 20px;
+
+    @include mobile {
+        grid-template-columns: 1fr;
+    }
+}
+
+.catalog__items-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+
+    @include mobile {
+        margin-bottom: 16px;
+    }
+
+}
+
+.catalog__items-text {
+    display: flex;
+    gap: 32px;
+
+    @include mobile {
+        display: none;
+    }
+}
+
+.catalog__items-desc {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--light-blue);
+    cursor: pointer;
+}
+
+.catalog__items-desc--selected{
+    color: var(--black);
+}
+
+// Catalog Items Icons Tile and Row 
+.catalog__items-icons {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    @include mobile {
+        display: none;
+    }
+}
+
+.catalog__items-icon-tile {
+    cursor: pointer;
+    transition: transform .2s ease-in;
+}
+
+.catalog__items-icon-tile-svg {
+    fill: #888888;
+}
+
+.catalog__items-icon-tile > .catalog__items-icon-tile-svg {
+    transition: fill .2s ease-in;
+    &:hover {
+        fill: var(--black);
+    }
+}
+
+.catalog__items-icon-tile-svg.scale {
+    transform: scale(1.1);
+    fill: var(--black);
+}
+
+.catalog__items-icon-row {
+    cursor: pointer;
+    transition: transform .2s ease-in;
+}
+
+.catalog__items-icon-row-svg {
+    fill: #888888;
+}
+
+.catalog__items-icon-row > .catalog__items-icon-row-svg {
+    transition: fill .2s ease-in;
+    &:hover {
+        fill: var(--black);
+    }
+}
+
+.catalog__items-icon-row-svg.scale {
+    transform: scale(1.1);
+    fill: var(--black);
+}
+
+// иконки фильтрации на 360 экране
+.catalog__items-filters {
+    display: none;
+
+    @include mobile {
+        width: 100%;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+} 
+
+.catalog__items-filters-left {
+    border-radius: 30px;
+    padding: 4px 8px;
+    width: 40px;
+    height: 32px;
+    background: var(--light-grey);
+
+    display: none;
+
+    @include mobile {
+        display: block;
+    }
+}
+
+.catalog__items-filters-right {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: var(--black);
+
+    border-radius: 30px;
+    padding: 4px 8px;
+    width: 103px;
+    height: 32px;
+    background: var(--light-grey);
+}
+
+// -------- END --------
+
+// Отобображение карточек машин плитка и ряд
+.catalog__items {
+    
+}
+
+.catalog__item {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @include mobile {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        gap: 4px;
+        
+        &::before {
+            content: '';
+    
+            background: var(--light-grey);
+            width: 106%;
+            height: 100%;
+    
+            position: absolute;
+            top: 0;
+            left: -10px;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    }
+}
+
+.catalog__item.hide {
+    display: none;
+}
+
+.catalog__item-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.catalog__item-2.hide {
+    display: none;
+}
+
+// -------- END --------
+
+// Catalog Item Count
+.catalog__item-count {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin-top: 24px;
+    justify-content: flex-end;
+
+    @include mobile {
+        justify-content: center;
+    }
+}
+
+.catalog__item-count-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--black);
+}
+
+.catalog__item-count-number {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.catalog__item-count-num {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--light-blue);
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.catalog__item-count-num--active {
+    color: var(--black);
+}
