@@ -1,3 +1,7 @@
+import reactApp from './reactApp.js';
+reactApp();
+
+
 // Header fixed
 import headerFixed from './modules/header-fixed.js';
 headerFixed();
@@ -22,7 +26,5 @@ mobileNav();
 import mobileNav2 from './modules/mobile-nav2.js';
 mobileNav2();
 
-import reactApp from './reactApp.js';
-reactApp();
 
 // -----------------------------------------------------

@@ -1,4 +1,7 @@
 function catalogCardsList () {
+
+
+
     const iconTile = document.querySelector('.catalog__items-icon-tile')
     const iconRow = document.querySelector('.catalog__items-icon-row')
 
@@ -17,7 +20,7 @@ function catalogCardsList () {
         iconTileSvg.classList.add('scale')
       
     })
-
+    console.log("catalogCardsList called");
     iconRow.addEventListener('click', () =>  {
         catalogItem1.classList.add('hide')
         catalogItem2.classList.remove('hide')

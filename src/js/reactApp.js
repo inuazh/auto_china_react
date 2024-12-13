@@ -24,6 +24,8 @@ const App = () => {
     );
 };
 
+export default App;
+
 // Рендерим основной React-компонент в 'react-root'
 const mainRoot = ReactDOM.createRoot(document.getElementById('react-root-index'));
 mainRoot.render(<App />);

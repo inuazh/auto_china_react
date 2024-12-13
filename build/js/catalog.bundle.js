@@ -86,7 +86,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   \**************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nvar RangeSlider = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"filter-range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control\",\n    \"data-min\": \"0.2\",\n    \"data-max\": \"4.5\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u041E\\u0431\\u044A\\u0435\\u043C, \\u043B\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume\",\n    step: \"0.1\",\n    defaultValue: \"0.2\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume\",\n    step: \"0.1\",\n    defaultValue: \"4.5\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    className: \"min-value\",\n    defaultValue: \"0.2\",\n    step: \"0.1\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    className: \"max-value\",\n    defaultValue: \"4.5\",\n    step: \"0.1\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control\",\n    \"data-min\": \"100\",\n    \"data-max\": \"700\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u041C\\u043E\\u0449\\u043D\\u043E\\u0441\\u0442\\u044C, \\u043B.\\u0441.\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume\",\n    step: \"10\",\n    defaultValue: \"100\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume\",\n    step: \"10\",\n    defaultValue: \"700\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    className: \"min-value\",\n    defaultValue: \"100\",\n    step: \"10\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    className: \"max-value\",\n    defaultValue: \"700\",\n    step: \"10\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control\",\n    \"data-min\": \"2\",\n    \"data-max\": \"15\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u0420\\u0430\\u0437\\u0433\\u043E\\u043D, \\u0441\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume\",\n    step: \"1\",\n    defaultValue: \"2\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume\",\n    step: \"1\",\n    defaultValue: \"15\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    className: \"min-value\",\n    defaultValue: \"2\",\n    step: \"1\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    className: \"max-value\",\n    defaultValue: \"15\",\n    step: \"1\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control\",\n    \"data-min\": \"2016\",\n    \"data-max\": \"2024\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u0413\\u043E\\u0434\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume\",\n    step: \"1\",\n    defaultValue: \"2016\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume\",\n    step: \"1\",\n    defaultValue: \"2024\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    className: \"min-value\",\n    defaultValue: \"2016\",\n    step: \"1\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    className: \"max-value\",\n    defaultValue: \"2024\",\n    step: \"1\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control new-slider\",\n    \"data-min\": \"100000\",\n    \"data-max\": \"1000000\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u0426\\u0435\\u043D\\u0430, \\u20BD\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume new-min-volume\",\n    step: \"50000\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume new-max-volume\",\n    step: \"50000\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track new-slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"text\",\n    className: \"min-value new-min-value\",\n    defaultValue: \"100000\",\n    step: \"50000\",\n    \"data-raw-value\": \"100000\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"text\",\n    className: \"max-value new-max-value\",\n    defaultValue: \"1000000\",\n    step: \"50000\",\n    \"data-raw-value\": \"1000000\"\n  }))));\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (RangeSlider);\n\n//# sourceURL=webpack:///./src/html/blocks/catalog/range-slider.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nvar RangeSlider = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"filter-range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control\",\n    \"data-min\": \"0.2\",\n    \"data-max\": \"4.5\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u041E\\u0431\\u044A\\u0435\\u043C, \\u043B\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume\",\n    step: \"0.1\",\n    Value: \"0.2\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume\",\n    step: \"0.1\",\n    Value: \"4.5\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    id: \"range-value\",\n    className: \"min-value\",\n    Value: \"0.2\",\n    step: \"0.1\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    id: \"range-value\",\n    className: \"max-value\",\n    Value: \"4.5\",\n    step: \"0.1\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control\",\n    \"data-min\": 100,\n    \"data-max\": 700\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u041C\\u043E\\u0449\\u043D\\u043E\\u0441\\u0442\\u044C, \\u043B.\\u0441.\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume\",\n    step: 10,\n    Value: 100\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume\",\n    step: 10,\n    Value: 700\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    id: \"range-value\",\n    className: \"min-value\",\n    Value: 100,\n    step: 10\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    id: \"range-value\",\n    className: \"max-value\",\n    Value: 700,\n    step: 10\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control\",\n    \"data-min\": 2,\n    \"data-max\": 15\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u0420\\u0430\\u0437\\u0433\\u043E\\u043D, \\u0441\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume\",\n    step: 1,\n    Value: 2\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume\",\n    step: 1,\n    Value: 15\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    id: \"range-value\",\n    className: \"min-value\",\n    Value: 2,\n    step: 1\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    id: \"range-value\",\n    className: \"max-value\",\n    Value: 15,\n    step: 1\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control\",\n    \"data-min\": 2016,\n    \"data-max\": 2024\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u0413\\u043E\\u0434\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume\",\n    step: 1,\n    Value: 2016\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume\",\n    step: 1,\n    Value: 2024\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    id: \"range-value\",\n    className: \"min-value\",\n    Value: 2016,\n    step: 1\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"number\",\n    id: \"range-value\",\n    className: \"max-value\",\n    Value: 2024,\n    step: 1\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"volume-range-control new-slider\",\n    \"data-min\": 100000,\n    \"data-max\": 1000000\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", {\n    className: \"filter__title\"\n  }, \"\\u0426\\u0435\\u043D\\u0430, \\u20BD\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"min-volume new-min-volume\",\n    step: 50000\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"range\",\n    className: \"max-volume new-max-volume\",\n    step: 50000\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"slider-track new-slider-track\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"range-values\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"text\",\n    id: \"range-value\",\n    className: \"min-value new-min-value\",\n    Value: 100000,\n    step: 50000,\n    \"data-raw-value\": 100000\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"input\", {\n    type: \"text\",\n    id: \"range-value\",\n    className: \"max-value new-max-value\",\n    Value: 1000000,\n    step: 50000,\n    \"data-raw-value\": 1000000\n  }))));\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (RangeSlider);\n\n//# sourceURL=webpack:///./src/html/blocks/catalog/range-slider.jsx?");
 
 /***/ }),
 
@@ -116,37 +116,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   \***************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _CatalogAutoApp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CatalogAutoApp */ \"./src/js/CatalogAutoApp.js\");\n/* harmony import */ var _modules_catalog_cards_list_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/catalog-cards-list.js */ \"./src/js/modules/catalog-cards-list.js\");\n/* harmony import */ var _modules_filter_range_slider_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/filter-range-slider.js */ \"./src/js/modules/filter-range-slider.js\");\n/* harmony import */ var _modules_filter_range_slider_modifier_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/filter-range-slider-modifier.js */ \"./src/js/modules/filter-range-slider-modifier.js\");\n/* harmony import */ var _modules_filter_hidden_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/filter-hidden.js */ \"./src/js/modules/filter-hidden.js\");\n/* harmony import */ var _modules_mobile_nav2_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/mobile-nav2.js */ \"./src/js/modules/mobile-nav2.js\");\n/* harmony import */ var _modules_catalog_filters_modal_mobile_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/catalog-filters-modal-mobile.js */ \"./src/js/modules/catalog-filters-modal-mobile.js\");\n/* harmony import */ var _modules_catalog_filters_modal_radio_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/catalog-filters-modal-radio.js */ \"./src/js/modules/catalog-filters-modal-radio.js\");\n\n(0,_CatalogAutoApp__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n// Catalog Card List display\n\n(0,_modules_catalog_cards_list_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n// Filter-slider\n\n(0,_modules_filter_range_slider_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n\n// Filter-range-slider-modifier\n\n(0,_modules_filter_range_slider_modifier_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n\n// Filter Hidden\n\n(0,_modules_filter_hidden_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n\n// Мобильная навигация\n\n(0,_modules_mobile_nav2_js__WEBPACK_IMPORTED_MODULE_5__[\"default\"])();\n\n//  Каталог модальное окно фильров по нажатию на кнопку\n\n(0,_modules_catalog_filters_modal_mobile_js__WEBPACK_IMPORTED_MODULE_6__[\"default\"])();\n\n//  Каталог модальное окно фильров по нажатию на кнопку\n\n(0,_modules_catalog_filters_modal_radio_js__WEBPACK_IMPORTED_MODULE_7__[\"default\"])();\n\n//# sourceURL=webpack:///./src/js/catalog.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _CatalogAutoApp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CatalogAutoApp */ \"./src/js/CatalogAutoApp.js\");\n/* harmony import */ var _modules_btn_fav_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/btn-fav.js */ \"./src/js/modules/btn-fav.js\");\n/* harmony import */ var _modules_filter_range_slider_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/filter-range-slider.js */ \"./src/js/modules/filter-range-slider.js\");\n/* harmony import */ var _modules_filter_range_slider_modifier_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/filter-range-slider-modifier.js */ \"./src/js/modules/filter-range-slider-modifier.js\");\n/* harmony import */ var _modules_filter_hidden_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/filter-hidden.js */ \"./src/js/modules/filter-hidden.js\");\n/* harmony import */ var _modules_mobile_nav2_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/mobile-nav2.js */ \"./src/js/modules/mobile-nav2.js\");\n\n(0,_CatalogAutoApp__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n// Button favorite\n\n(0,_modules_btn_fav_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n// Catalog Card List display\ndocument.addEventListener('DOMContentLoaded', () => {\n  __webpack_require__.e(/*! import() */ \"src_js_modules_catalog-cards-list_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./modules/catalog-cards-list.js */ \"./src/js/modules/catalog-cards-list.js\")).then(module => {\n    module.default();\n  }).catch(error => console.error('Ошибка при загрузке catalogCardsList:', error));\n});\n\n// Filter-slider\n\n(0,_modules_filter_range_slider_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n\n// Filter-range-slider-modifier\n\n(0,_modules_filter_range_slider_modifier_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n\n// Filter Hidden\n\n(0,_modules_filter_hidden_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\nconsole.log('catalogCardsList');\n\n// Мобильная навигация\n\n(0,_modules_mobile_nav2_js__WEBPACK_IMPORTED_MODULE_5__[\"default\"])();\n\n// //  Каталог модальное окно фильров по нажатию на кнопку\n// import catalogFiltersModalMobile from './modules/catalog-filters-modal-mobile.js';\n// catalogFiltersModalMobile();\n\n// //  Каталог модальное окно фильров по нажатию на кнопку\n// import catalogFiltersModalRadio from './modules/catalog-filters-modal-radio.js';\n// catalogFiltersModalRadio();\n\n//# sourceURL=webpack:///./src/js/catalog.js?");
 
 /***/ }),
 
-/***/ "./src/js/modules/catalog-cards-list.js":
-/*!**********************************************!*\
-  !*** ./src/js/modules/catalog-cards-list.js ***!
-  \**********************************************/
+/***/ "./src/js/modules/btn-fav.js":
+/*!***********************************!*\
+  !*** ./src/js/modules/btn-fav.js ***!
+  \***********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\nfunction catalogCardsList() {\n  var iconTile = document.querySelector('.catalog__items-icon-tile');\n  var iconRow = document.querySelector('.catalog__items-icon-row');\n  var iconTileSvg = document.querySelector('.catalog__items-icon-tile-svg');\n  var iconRowSvg = document.querySelector('.catalog__items-icon-row-svg');\n  var catalogItem1 = document.querySelector('.catalog__item');\n  var catalogItem2 = document.querySelector('.catalog__item-2');\n  iconTile.addEventListener('click', () => {\n    catalogItem1.classList.remove('hide');\n    catalogItem2.classList.add('hide');\n    iconRowSvg.classList.remove('scale');\n    iconTileSvg.classList.add('scale');\n  });\n  iconRow.addEventListener('click', () => {\n    catalogItem1.classList.add('hide');\n    catalogItem2.classList.remove('hide');\n    iconTileSvg.classList.remove('scale');\n    iconRowSvg.classList.add('scale');\n  });\n}\n/* harmony default export */ __webpack_exports__[\"default\"] = (catalogCardsList);\n\n//# sourceURL=webpack:///./src/js/modules/catalog-cards-list.js?");
-
-/***/ }),
-
-/***/ "./src/js/modules/catalog-filters-modal-mobile.js":
-/*!********************************************************!*\
-  !*** ./src/js/modules/catalog-filters-modal-mobile.js ***!
-  \********************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\nfunction catalogFiltersModalMobile() {\n  document.addEventListener('DOMContentLoaded', () => {\n    var filters = document.querySelector('.filters');\n    var header2 = document.querySelector('.header2');\n    var openFiltersButton = document.querySelector('.catalog__items-filters-right');\n    var closeFiltersButton = document.querySelector('.filters-mobile-btnClose');\n    openFiltersButton.addEventListener('click', () => {\n      filters.style.display = 'block';\n      header2.style.display = 'none';\n    });\n    closeFiltersButton.addEventListener('click', () => {\n      filters.style.display = 'none';\n      header2.style.display = 'block';\n    });\n  });\n}\n/* harmony default export */ __webpack_exports__[\"default\"] = (catalogFiltersModalMobile);\n\n//# sourceURL=webpack:///./src/js/modules/catalog-filters-modal-mobile.js?");
-
-/***/ }),
-
-/***/ "./src/js/modules/catalog-filters-modal-radio.js":
-/*!*******************************************************!*\
-  !*** ./src/js/modules/catalog-filters-modal-radio.js ***!
-  \*******************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\nfunction catalogFiltersModalRadio() {\n  document.addEventListener('DOMContentLoaded', () => {\n    var selectors = {\n      filters: '.catalog__items-filters-modal',\n      catalogModal: '.catalog-modal',\n      openFiltersButton: '.catalog__items-filters-left',\n      closeFiltersButton: '.catalog-modal-btnClose',\n      body: 'body',\n      headerOverlay: '.header-overlay'\n    };\n    var elements = Object.fromEntries(Object.entries(selectors).map(_ref => {\n      var [key, selector] = _ref;\n      return [key, document.querySelector(selector)];\n    }));\n    var {\n      filters,\n      catalogModal,\n      openFiltersButton,\n      closeFiltersButton,\n      body,\n      headerOverlay\n    } = elements;\n    if (openFiltersButton && filters && catalogModal && closeFiltersButton && headerOverlay) {\n      var toggleModalDisplay = displayValue => {\n        filters.style.display = displayValue;\n        catalogModal.style.display = displayValue;\n        headerOverlay.style.display = displayValue;\n        body.classList.toggle('no-scroll', displayValue === 'block');\n      };\n      openFiltersButton.addEventListener('click', () => {\n        window.scrollTo({\n          top: 0,\n          behavior: 'smooth'\n        });\n        setTimeout(() => toggleModalDisplay('block'), 300);\n      });\n      closeFiltersButton.addEventListener('click', () => toggleModalDisplay('none'));\n      catalogModal.addEventListener('click', event => {\n        if (event.target === catalogModal) toggleModalDisplay('none');\n      });\n    } else {\n      console.error('elements missing');\n    }\n  });\n}\n/* harmony default export */ __webpack_exports__[\"default\"] = (catalogFiltersModalRadio);\n\n//# sourceURL=webpack:///./src/js/modules/catalog-filters-modal-radio.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nfunction btnFav() {\n  var autoCard = document.querySelectorAll('.auto-card');\n  // let favorite = [];\n\n  autoCard.forEach(function (card) {\n    card.addEventListener(\"click\", e => {\n      var btnFavor = card.querySelector(\".btn-favorite\");\n      if (e.target.classList.contains('icon-favorite-btn')) {\n        var btnFavModal = card.querySelector(\".fav-btn-modal\");\n        btnFavor.classList.toggle('btn-favorite--selected');\n        if (card.querySelector('.btn-favorite--selected')) {\n          btnFavModal.style.display = \"block\";\n          // favorite.filter((cardFavorited) => cardFavorited.id);\n\n          setTimeout(function () {\n            btnFavModal.style.display = \"none\";\n          }, 1200);\n        } else {\n          // favorite.push(card)\n        }\n      }\n    });\n  });\n}\n;\n/* harmony default export */ __webpack_exports__[\"default\"] = (btnFav);\n\n//# sourceURL=webpack:///./src/js/modules/btn-fav.js?");
 
 /***/ }),
 
@@ -299,6 +279,9 @@ eval("module.exports = /*#__PURE__*/JSON.parse('[{\"id\":\"aito\",\"name\":\"ait
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	!function() {
@@ -324,9 +307,89 @@ eval("module.exports = /*#__PURE__*/JSON.parse('[{\"id\":\"aito\",\"name\":\"ait
 /******/ 		};
 /******/ 	}();
 /******/ 	
+/******/ 	/* webpack/runtime/ensure chunk */
+/******/ 	!function() {
+/******/ 		__webpack_require__.f = {};
+/******/ 		// This file contains only the entry chunk.
+/******/ 		// The chunk loading function for additional chunks
+/******/ 		__webpack_require__.e = function(chunkId) {
+/******/ 			return Promise.all(Object.keys(__webpack_require__.f).reduce(function(promises, key) {
+/******/ 				__webpack_require__.f[key](chunkId, promises);
+/******/ 				return promises;
+/******/ 			}, []));
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/get javascript chunk filename */
+/******/ 	!function() {
+/******/ 		// This function allow to reference async chunks
+/******/ 		__webpack_require__.u = function(chunkId) {
+/******/ 			// return url for filenames based on template
+/******/ 			return "" + chunkId + ".bundle.js";
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	!function() {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	}();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	!function() {
 /******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/load script */
+/******/ 	!function() {
+/******/ 		var inProgress = {};
+/******/ 		// data-webpack is not used as build has no uniqueName
+/******/ 		// loadScript function to load a script via script tag
+/******/ 		__webpack_require__.l = function(url, done, key, chunkId) {
+/******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
+/******/ 			var script, needAttach;
+/******/ 			if(key !== undefined) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				for(var i = 0; i < scripts.length; i++) {
+/******/ 					var s = scripts[i];
+/******/ 					if(s.getAttribute("src") == url) { script = s; break; }
+/******/ 				}
+/******/ 			}
+/******/ 			if(!script) {
+/******/ 				needAttach = true;
+/******/ 				script = document.createElement('script');
+/******/ 		
+/******/ 				script.charset = 'utf-8';
+/******/ 				script.timeout = 120;
+/******/ 				if (__webpack_require__.nc) {
+/******/ 					script.setAttribute("nonce", __webpack_require__.nc);
+/******/ 				}
+/******/ 		
+/******/ 		
+/******/ 				script.src = url;
+/******/ 			}
+/******/ 			inProgress[url] = [done];
+/******/ 			var onScriptComplete = function(prev, event) {
+/******/ 				// avoid mem leaks in IE.
+/******/ 				script.onerror = script.onload = null;
+/******/ 				clearTimeout(timeout);
+/******/ 				var doneFns = inProgress[url];
+/******/ 				delete inProgress[url];
+/******/ 				script.parentNode && script.parentNode.removeChild(script);
+/******/ 				doneFns && doneFns.forEach(function(fn) { return fn(event); });
+/******/ 				if(prev) return prev(event);
+/******/ 			}
+/******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
+/******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
+/******/ 			script.onload = onScriptComplete.bind(null, script.onload);
+/******/ 			needAttach && document.head.appendChild(script);
+/******/ 		};
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
@@ -347,6 +410,121 @@ eval("module.exports = /*#__PURE__*/JSON.parse('[{\"id\":\"aito\",\"name\":\"ait
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	!function() {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	!function() {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"catalog": 0
+/******/ 		};
+/******/ 		
+/******/ 		__webpack_require__.f.j = function(chunkId, promises) {
+/******/ 				// JSONP chunk loading for javascript
+/******/ 				var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
+/******/ 				if(installedChunkData !== 0) { // 0 means "already installed".
+/******/ 		
+/******/ 					// a Promise means "currently loading".
+/******/ 					if(installedChunkData) {
+/******/ 						promises.push(installedChunkData[2]);
+/******/ 					} else {
+/******/ 						if(true) { // all chunks have JS
+/******/ 							// setup Promise in chunk cache
+/******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
+/******/ 							promises.push(installedChunkData[2] = promise);
+/******/ 		
+/******/ 							// start chunk loading
+/******/ 							var url = __webpack_require__.p + __webpack_require__.u(chunkId);
+/******/ 							// create error before stack unwound to get useful stacktrace later
+/******/ 							var error = new Error();
+/******/ 							var loadingEnded = function(event) {
+/******/ 								if(__webpack_require__.o(installedChunks, chunkId)) {
+/******/ 									installedChunkData = installedChunks[chunkId];
+/******/ 									if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
+/******/ 									if(installedChunkData) {
+/******/ 										var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+/******/ 										var realSrc = event && event.target && event.target.src;
+/******/ 										error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
+/******/ 										error.name = 'ChunkLoadError';
+/******/ 										error.type = errorType;
+/******/ 										error.request = realSrc;
+/******/ 										installedChunkData[1](error);
+/******/ 									}
+/******/ 								}
+/******/ 							};
+/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
+/******/ 						}
+/******/ 					}
+/******/ 				}
+/******/ 		};
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = function(parentChunkLoadingFunction, data) {
+/******/ 			var chunkIds = data[0];
+/******/ 			var moreModules = data[1];
+/******/ 			var runtime = data[2];
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some(function(id) { return installedChunks[id] !== 0; })) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 		
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	}();
 /******/ 	
 /************************************************************************/

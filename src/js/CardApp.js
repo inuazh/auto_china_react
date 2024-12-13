@@ -4,7 +4,7 @@ import Footer from '../html/blocks/footer'; // Общий футер
 import Card from '../html/blocks/card';
 
 
-console.log('Catalog React');
+console.log('Card React');
 
 const CardApp = () => {
     return (
