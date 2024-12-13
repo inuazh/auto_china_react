@@ -1,146 +1,153 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
+
+function formatNumber(value) {
+  return parseFloat(value).toLocaleString('ru-RU');
+}
+
+const RangeControl = ({
+  title,
+  minLimit,
+  maxLimit,
+  step = 0.1,
+  initialMinValue,
+  initialMaxValue,
+  isPrice = false
+}) => {
+  const [minValue, setMinValue] = useState(initialMinValue);
+  const [maxValue, setMaxValue] = useState(initialMaxValue);
+
+  const handleMinSliderChange = (e) => {
+    const val = parseFloat(e.target.value);
+    setMinValue(val);
+  };
+
+  const handleMaxSliderChange = (e) => {
+    const val = parseFloat(e.target.value);
+    setMaxValue(val);
+  };
+
+  const handleMinInputChange = (e) => {
+    const rawVal = e.target.value.replace(/\s/g, '').replace(',', '.');
+    const numericVal = parseFloat(rawVal);
+    if (!isNaN(numericVal)) {
+      setMinValue(numericVal);
+    } else {
+      setMinValue(minLimit);
+    }
+  };
+
+  const handleMaxInputChange = (e) => {
+    const rawVal = e.target.value.replace(/\s/g, '').replace(',', '.');
+    const numericVal = parseFloat(rawVal);
+    if (!isNaN(numericVal)) {
+      setMaxValue(numericVal);
+    } else {
+      setMaxValue(maxLimit);
+    }
+  };
+
+  const displayMinValue = isPrice ? formatNumber(minValue) : minValue;
+  const displayMaxValue = isPrice ? formatNumber(maxValue) : maxValue;
+
+  // Рассчёт процентов для CSS переменных
+  const minPercent = (minValue - minLimit) / (maxLimit - minLimit);
+  const maxPercent = (maxValue - minLimit) / (maxLimit - minLimit);
+
+  const trackStyle = {
+    '--min-value': minPercent,
+    '--max-value': maxPercent
+  };
+
+  // Добавляем класс active, когда значения установлены
+  const trackClass = `slider-track${(minValue && maxValue) ? ' active' : ''}`;
+
+  return (
+    <div className="volume-range-control" data-min={minLimit} data-max={maxLimit}>
+      <h4 className="filter__title">{title}</h4>
+      <div className="range-slider">
+        <input
+          type="range"
+          className="min-volume"
+          step={step}
+          min={minLimit}
+          max={maxLimit}
+          value={minValue}
+          onChange={handleMinSliderChange}
+        />
+        <input
+          type="range"
+          className="max-volume"
+          step={step}
+          min={minLimit}
+          max={maxLimit}
+          value={maxValue}
+          onChange={handleMaxSliderChange}
+        />
+        <div className={trackClass} style={trackStyle} />
+      </div>
+      <div className="range-values">
+        <input
+          type="text"
+          className="min-value"
+          value={displayMinValue}
+          onChange={handleMinInputChange}
+        />
+        <input
+          type="text"
+          className="max-value"
+          value={displayMaxValue}
+          onChange={handleMaxInputChange}
+        />
+      </div>
+    </div>
+  );
+};
 
 const RangeSlider = () => {
   return (
-<div className="filter-range-slider">
-  <div className="volume-range-control" data-min="0.2" data-max="4.5">
-    <h4 className="filter__title">Объем, л</h4>
-    <div className="range-slider">
-      <input
-        type="range"
-        className="min-volume"
-        step="0.1"
-        Value="0.2"
+    <div className="filter-range-slider">
+      <RangeControl
+        title="Объем, л"
+        minLimit={0.2}
+        maxLimit={4.5}
+        step={0.1}
+        initialMinValue={0.2}
+        initialMaxValue={4.5}
       />
-      <input
-        type="range"
-        className="max-volume"
-        step="0.1"
-        Value="4.5"
-      />
-      <div className="slider-track" />
-    </div>
-    <div className="range-values">
-      <input
-        type="number"
-        id="range-value"
-        className="min-value"
-        Value="0.2"
-        step="0.1"
-      />
-      <input
-        type="number"
-        id="range-value"
-        className="max-value"
-        Value="4.5"
-        step="0.1"
-      />
-    </div>
-  </div>
-  <div className="volume-range-control" data-min={100} data-max={700}>
-    <h4 className="filter__title">Мощность, л.с.</h4>
-    <div className="range-slider">
-      <input type="range" className="min-volume" step={10} Value={100} /> 
-      <input type="range" className="max-volume" step={10} Value={700} />
-      <div className="slider-track" />
-    </div>
-    <div className="range-values">
-      <input
-        type="number"
-        id="range-value"
-        className="min-value"
-        Value={100}
+      <RangeControl
+        title="Мощность, л.с."
+        minLimit={100}
+        maxLimit={700}
         step={10}
+        initialMinValue={100}
+        initialMaxValue={700}
       />
-      <input
-        type="number"
-        id="range-value"
-        className="max-value"
-        Value={700}
-        step={10}
-      />
-    </div>
-  </div>
-  <div className="volume-range-control" data-min={2} data-max={15}>
-    <h4 className="filter__title">Разгон, с</h4>
-    <div className="range-slider">
-      <input type="range" className="min-volume" step={1} Value={2} />
-      <input type="range" className="max-volume" step={1} Value={15} />
-      <div className="slider-track" />
-    </div>
-    <div className="range-values">
-      <input
-        type="number"
-        id="range-value"
-        className="min-value"
-        Value={2}
+      <RangeControl
+        title="Разгон, с"
+        minLimit={2}
+        maxLimit={15}
         step={1}
+        initialMinValue={2}
+        initialMaxValue={15}
       />
-      <input
-        type="number"
-        id="range-value"
-        className="max-value"
-        Value={15}
+      <RangeControl
+        title="Год"
+        minLimit={2016}
+        maxLimit={2024}
         step={1}
+        initialMinValue={2016}
+        initialMaxValue={2024}
       />
-    </div>
-  </div>
-  <div className="volume-range-control" data-min={2016} data-max={2024}>
-    <h4 className="filter__title">Год</h4>
-    <div className="range-slider">
-      <input type="range" className="min-volume" step={1} Value={2016} />
-      <input type="range" className="max-volume" step={1} Value={2024} />
-      <div className="slider-track" />
-    </div>
-    <div className="range-values">
-      <input
-        type="number"
-        id="range-value"
-        className="min-value"
-        Value={2016}
-        step={1}
-      />
-      <input
-        type="number"
-        id="range-value"
-        className="max-value"
-        Value={2024}
-        step={1}
-      />
-    </div>
-  </div>
-  <div
-    className="volume-range-control new-slider"
-    data-min={100000}
-    data-max={1000000}
-  >
-    <h4 className="filter__title">Цена, ₽</h4>
-    <div className="range-slider">
-      <input type="range" className="min-volume new-min-volume" step={50000} />
-      <input type="range" className="max-volume new-max-volume" step={50000} />
-      <div className="slider-track new-slider-track" />
-    </div>
-    <div className="range-values">
-      <input
-        type="text"
-        id="range-value"
-        className="min-value new-min-value"
-        Value={100000}
+      <RangeControl
+        title="Цена, ₽"
+        minLimit={100000}
+        maxLimit={1000000}
         step={50000}
-        data-raw-value={100000}
-      />
-      <input
-        type="text"
-        id="range-value"
-        className="max-value new-max-value"
-        Value={1000000}
-        step={50000}
-        data-raw-value={1000000}
+        initialMinValue={100000}
+        initialMaxValue={1000000}
+        isPrice={true}
       />
     </div>
-  </div>
-</div>
-
   );
 };
 

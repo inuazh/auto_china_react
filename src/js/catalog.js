@@ -18,15 +18,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Filter-slider
-import filterSlider from './modules/filter-range-slider.js';
-filterSlider(); 
+// // Filter-slider
+// import filterSlider from './modules/filter-range-slider.js';
+// filterSlider(); 
 
 
 
-// Filter-range-slider-modifier
-import filterRangeSliderModifier from './modules/filter-range-slider-modifier.js';
-filterRangeSliderModifier(); 
+// // Filter-range-slider-modifier
+// import filterRangeSliderModifier from './modules/filter-range-slider-modifier.js';
+// filterRangeSliderModifier(); 
 
 
 
