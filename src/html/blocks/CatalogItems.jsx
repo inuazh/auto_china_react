@@ -1,13 +1,15 @@
-import React from 'react';
-import NewCarsCard from './blocks/new-cars-card';
-import PopularCarsCard from './blocks/popular-cars-card';
+import React from "react";
+import NewCarsCard from "./blocks/new-cars-card";
+import PopularCarsCard from "./blocks/popular-cars-card";
 
 const CatalogItems = () => {
   return (
     <div className="catalog__items">
       <div className="catalog__items-titles">
         <div className="catalog__items-text">
-          <p className="catalog__items-desc catalog__items-desc--selected">По популярности</p>
+          <p className="catalog__items-desc catalog__items-desc--selected">
+            По популярности
+          </p>
           <p className="catalog__items-desc">По убыванию цены</p>
           <p className="catalog__items-desc">По возрастанию цены</p>
         </div>
@@ -50,11 +52,14 @@ const CatalogItems = () => {
       </div>
 
       <div className="catalog__item">
-        {/* Карточки автомобилей */}
         <NewCarsCard />
-        <PopularCarsCard />
+        <PopularCarsCard imgSrc={"./../../../img/new-cars/01.jpg"} 
+        price="20,000 USD"
+        />
         <NewCarsCard />
-        <PopularCarsCard />
+        <PopularCarsCard imgSrc={"./../../../img/new-cars/01.jpg"} 
+        price="20,000 USD"
+        />
       </div>
     </div>
   );

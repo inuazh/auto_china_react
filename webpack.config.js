@@ -1,48 +1,44 @@
-const path = require('path'); // Для работы с путями
+const path = require('path');
 
 const config = {
     mode: 'development',
     entry: {
-        index: './src/js/index.js', // Точка входа для index.js
-        catalog: './src/js/catalog.js', // Точка входа для catalog.js
-        card: './src/js/card.js' // Точка входа для card.js
+        index: './src/js/index.js',
+        catalog: './src/js/catalog.js',
+        card: './src/js/card.js',
     },
     output: {
-        path: path.resolve(__dirname, 'build/js'), // Папка для сборки
-        filename: '[name].bundle.js', // [name] будет заменён на 'index', 'catalog', 'card'
+        path: path.resolve(__dirname, 'build/js'),
+        filename: '[name].bundle.js',
     },
     module: {
         rules: [
             {
-                test: /\.css$/, // Обработка CSS
+                test: /\.css$/,
                 use: ['style-loader', 'css-loader'],
             },
             {
-                test: /\.(js|jsx)$/, // Обработка JavaScript и JSX файлов
-                exclude: /node_modules/, // Исключение для node_modules
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: [
-                            [
-                                '@babel/preset-env',
-                                {
-                                    targets: {
-                                        esmodules: true, // Поддержка ES модуля
-                                    },
-                                },
-                            ],
-                            '@babel/preset-react', // Поддержка React
-                        ],
+                        presets: ['@babel/preset-react'],
                     },
+                },
+            },
+            {
+                test: /\.(png|jpe?g|gif|svg)$/i, // Обработка изображений
+                type: 'asset/resource', // Встроенный тип Webpack для ресурсов
+                generator: {
+                    filename: '../img/[name][ext]', // Куда складывать обработанные изображения
                 },
             },
         ],
     },
     resolve: {
-        extensions: ['.js', '.jsx'], // Позволяет использовать import без указания расширений
+        extensions: ['.js', '.jsx'],
     },
 };
 
 module.exports = config;
-

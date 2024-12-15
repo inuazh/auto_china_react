@@ -63,7 +63,7 @@ const Filter = () => {
       <div className="filter filter-body">
         <h4 className="filter__title">Кузов</h4>
         <div className="filter__items">
-          {['sedan', 'hatchback-3', 'hatchback-5', 'liftback', 'suv-3'].map((id) => (
+          {["Седан", "Хэчбэк 3 дв.", "Хэчбэк 5 дв.", "Лифтбэк", "Внедорожник 3 дв."].map((id) => (
             <div key={id} className="filter__item">
               <input type="checkbox" className="filter-checkbox" id={id} name={id} value={id} />
               <label className="filter__item-label" htmlFor={id}>{id}</label>
@@ -71,7 +71,7 @@ const Filter = () => {
           ))}
           <div className="filter__items-hidden">
             <div className="filter__items">
-              {['suv-5', 'suv-7'].map((id) => (
+              {['Внедорожник 5 дв.', 'Внедорожник 7 дв.'].map((id) => (
                 <div key={id} className="filter__item">
                   <input type="checkbox" className="filter-checkbox" id={id} name={id} value={id} />
                   <label className="filter__item-label" htmlFor={id}>{id}</label>
@@ -90,7 +90,7 @@ const Filter = () => {
       <div className="filter filter-transmission">
         <h4 className="filter__title">Коробка</h4>
         <div className="filter__items">
-          {['automatic', 'robot', 'variator', 'mechanical'].map((id) => (
+          {["Автомат", "Робот", "Вариатор", "Механический"].map((id) => (
             <div key={id} className="filter__item">
               <input type="checkbox" className="filter-checkbox" id={id} name={id} value={id} />
               <label className="filter__item-label" htmlFor={id}>{id}</label>
@@ -103,7 +103,7 @@ const Filter = () => {
       <div className="filter filter-engine">
         <h4 className="filter__title">Двигатель</h4>
         <div className="filter__items">
-          {['petrol', 'diesel', 'hybrid', 'electro'].map((id) => (
+          {["бензин", "дизель", "гибрид", "электро"].map((id) => (
             <div key={id} className="filter__item">
               <input type="checkbox" className="filter-checkbox" id={id} name={id} value={id} />
               <label className="filter__item-label" htmlFor={id}>{id}</label>
@@ -111,7 +111,7 @@ const Filter = () => {
           ))}
           <div className="filter__items-hidden">
             <div className="filter__items">
-              {['turbo', 'atmospheric'].map((id) => (
+              {['Турбированный', 'Атмосферный'].map((id) => (
                 <div key={id} className="filter__item">
                   <input type="checkbox" className="filter-checkbox" id={id} name={id} value={id} />
                   <label className="filter__item-label" htmlFor={id}>{id}</label>

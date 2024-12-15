@@ -14,7 +14,6 @@ const NewCarsCard = () => {
             </div>
 
             <div className="favorite-btn">
-                {/* Используем компоненты вместо include */}
                 <FavoriteBtn />
                 <FavModal />
             </div>

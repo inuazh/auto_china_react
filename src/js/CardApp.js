@@ -14,6 +14,8 @@ const CardApp = () => {
     );
 };
 
+export default CardApp; 
+
 // Рендерим основной React-компонент в 'catalog-root'
 const cardRoot = ReactDOM.createRoot(document.getElementById('card-root'));
 cardRoot.render(<CardApp />);

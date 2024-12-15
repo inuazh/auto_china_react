@@ -2,8 +2,8 @@ import CatalogAutoApp from './CatalogAutoApp'
 CatalogAutoApp();
 
 // Button favorite
-import btnFav from './modules/btn-fav.js';
-btnFav();
+// import btnFav from './modules/btn-fav.js';
+// btnFav();
 
 
 // Catalog Card List display
